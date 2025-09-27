@@ -1,58 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Consultório Dra. Caroline</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
     <header role="banner">
-        <nav class="navbar" role="navigation" aria-label="Menu principal">
-            <div class="nav-container">
-                <a href="index.html" class="nav-logo"><img src="images/favicon25.png"> Consultório Dra. Caroline</a>
-                <div class="nav-menu">
-                    <a href="index.html" class="nav-link" aria-current="page">Início</a>                    
-                    <a href="servicos.html" class="nav-link">Serviços</a>
-                    <a href="contato.html" class="nav-link">Contato</a>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar" role="navigation" aria-label="Menu principal">
+        <div class="nav-container">
+          <a href="index.html" class="nav-logo"
+            ><img src="images/favicon25.png" /> Consultório Dra. Caroline</a
+          >
+          <div class="nav-menu">
+            <a href="index.html" class="nav-link" aria-current="page">Início</a>
+            <a href="servicos.html" class="nav-link">Serviços</a>
+            <a href="contato.html" class="nav-link">Contato</a>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <main role="main" >
-        <section class="hero" aria-labelledby="hero-title" style="background-image: url('images/fundo.png'); background-size: cover; background-position: center;">
-            <div class="hero-content">
-                <a href="contato.html" class="cta-button">Agende sua consulta</a>
-            </div>
-        </section>
+    <main role="main">
+      <section
+        class="hero"
+        aria-labelledby="hero-title"
+        style="
+          background-image: url('images/fundo.png');
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="hero-content">
+          <a href="contato.html" class="cta-button">Agende sua consulta</a>
+          
+        </div>
+      </section>
 
-        <section class="features" aria-labelledby="features-title">
-            <h2 id="features-title" class="section-title">Por que escolher o Consultório da Dra. Caroline?</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <h3><i class="fa-solid fa-award"></i> Equipe Qualificada</h3>
-                    <p>Profissionais com mais de 15 anos de experiência.</p>
-                </div>
-                <div class="feature-card">
-                    <h3><i class="fa-solid fa-microchip"></i> Tecnologia de Ponta</h3>
-                    <p>Equipamentos modernos para tratamentos eficientes e atualizados.</p>
-                </div>
-                <div class="feature-card">
-                    <h3><i class="fa-solid fa-universal-access"></i> Ambiente acessível</h3>
-                    <p>Espaço planejado para seu conforto, bem-estar e com acessibilidade.</p>
-                </div>
-            </div>
-        </section>
+      <section  id="conteudo" class="features" aria-labelledby="features-title">
+        <h2 id="features-title" class="section-title">
+          Por que escolher o Consultório da Dra. Caroline?
+        </h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <h3><i class="fa-solid fa-award"></i> Equipe Qualificada</h3>
+            <p>Profissionais com mais de 15 anos de experiência.</p>
+          </div>
+          <div class="feature-card">
+            <h3><i class="fa-solid fa-microchip"></i> Tecnologia de Ponta</h3>
+            <p>
+              Equipamentos modernos para tratamentos eficientes e atualizados.
+            </p>
+          </div>
+          <div class="feature-card">
+            <h3>
+              <i class="fa-solid fa-universal-access"></i> Ambiente acessível
+            </h3>
+            <p>
+              Espaço planejado para seu conforto, bem-estar e com
+              acessibilidade.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer role="contentinfo">
-        <div class="footer-content">
-            <p>&copy; 2025 Projeto Integrador II. Todos os direitos reservados.</p>
-        </div>
+      <div class="footer-content">
+        <p>&copy; 2025 Projeto Integrador II. Todos os direitos reservados.</p>
+        <button onclick="lerTexto()">🔊 Ler conteúdo</button>
+      </div>
     </footer>
-    <script src="https://kit.fontawesome.com/b1660b20ba.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/b1660b20ba.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
