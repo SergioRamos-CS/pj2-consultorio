@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "dev": "next dev",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
