@@ -1,9 +1,12 @@
 {
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watchAll"
   },
   "devDependencies": {
     "jest": "^29.6.2"
+  },
+  "dependencies": {
+    "pg": "^8.11.3"
   }
 }
