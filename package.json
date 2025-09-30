@@ -7,6 +7,15 @@
     "jest": "^29.6.2"
   },
   "dependencies": {
-    "pg": "^8.11.3"
-  }
+    "next": "^13.1.6",
+    "pg": "^8.11.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "pj2-consultorio",
+  "version": "1.0.0",
+  "main": "contato.js",
+  "author": "",
+  "license": "MIT",
+  "description": ""
 }
