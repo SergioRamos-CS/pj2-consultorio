@@ -5,7 +5,7 @@ async function query(queryObject) {
   await client, connect();
   const result = await client.query(queryObject);
   await client.end();
-  returm result;
+  return result;
 }
 
 export default {
