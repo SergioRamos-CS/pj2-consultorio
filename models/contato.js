@@ -12,20 +12,18 @@ export default {
 */
 
 document
-  .getElementById("contact-form")
-  .addEventListener("submit", function (e) {
+  .getElementById("contact-form").addEventListener("submit", function (e) {
     e.preventDefault();
 
     const formData = {
-      name: document.getElementById("name").value,
-      email: document.getElementById("email").value,
-      phone: document.getElementById("phone").value,
-      message: document.getElementById("message").value,
+      name:this.name.value,
+      email: this.email.value,
+      phone: this.phone.value,
+      message: this.message.value,
     };
-
+    alert("Mensagem enviada com sucesso!");
     // Aqui você pode adicionar a integração com o WhatsApp
     console.log("Dados do formulário:", formData);
-    alert("Mensagem enviada com sucesso!");
     this.reset();
   });
 
